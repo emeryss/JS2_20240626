@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="problem">
+        <div class="problem-num">
+            문제 1
+        </div>
+        <div class="problem-description">
+            유저가 입력하는 숫자가 0인지 음수인지 양수인지 판단하는 프로그램을 만드시오
+        </div>
+        <div class="input-field">
+            <input id="input1"/>
+            <button id="inputButton1">enter</button>
+        </div>
+        <div class="result-field">
+            <div>결과: &nbsp&nbsp</div>
+            <span class="output1" id="output1"></span>
+        </div>
+        
+    </div>
+    
+    <div class="problem">
+        <div class="problem-num">
+            문제 2
+        </div>
+        <div class="problem-description">
+            <div>나는 대학교 교수다. 레포트 점수에 따라 등급을 매기는 프로그램을 만드시오</div>
+            <div class="input-field">90~100: A</div>
+            <div>80~89: B</div>
+            <div>70~79: C</div>
+            <div>60~69: D</div>
+            <div>less than 59: F</div>
+        </div>
+        <div class="input-field">
+            <input id="input2"/>
+            <button id="inputButton2">enter</button>
+        </div>
+        <div class="result-field">
+            <div>성적: &nbsp&nbsp</div>
+            <span class="output2" id="output2"></span>
+        </div>
+        
+    </div>
+
+    <div class="problem">
+        <div class="problem-num">
+            문제 3
+        </div>
+        <div class="problem-description">
+            <div>한 지원자가 우리 회사에 지원을 했다. 지원자가 사용 가능한 스킬은 배열에 제공이 된다.</div>
+            <div>let skills = ["HTML", "CSS", "Javascript", "React"]</div>
+            <div>Javascript와 React 둘 다 할 줄 안다면 "합격!" Javascript와 React 둘 중 하나만 할 줄 안다면 "예비", 두 스킬이 없다면 "탈락"을 보여주는 프로그램을 짜시오</div>
+        </div>
+        <div class="input-field">
+            <input type="checkbox" id="check_HTML" checked/><label for="check_HTML">HTML</label>
+            <input type="checkbox" id="check_CSS" checked/><label for="check_CSS">CSS</label>
+            <input type="checkbox" id="check_Javascript"/><label for="check_Javascript">Javascript</label>
+            <input type="checkbox" id="check_React"/><label for="check_React">React</label>
+            <div>
+                <button id="checkButton">합격 여부</button>
+            </div>
+            
+        </div>
+        <div class="result-field">
+            <div>결과: &nbsp&nbsp</div>
+            <span class="output3" id="output3"></span>
+        </div>
+        
+    </div>
+
+    <div class="github">
+        <a href="">Github for this code</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+.problem-num{
+    font-size: xx-large;
+}
+
+.problem-description{
+    margin-top: 10px;
+}
+
+.problem {
+    /* border: solid red 1px; */
+    background-color: rgb(237, 237, 237);
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
+.input-field{
+    margin-top: 30px;
+}
+
+.result-field{
+    margin-top: 10px;
+    display: flex;
+}
+
+.output1{
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.output2{
+    color: blue;
+    font-weight: bold;
+}
+
+.output3{
+    color: green;
+    font-weight: bold;
+}
